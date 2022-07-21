@@ -52,14 +52,11 @@ for container in imageContainers:
         break
     print(imageUrl)
 
-# Shpariti fotot
 utils.createImage(imagePathsForIG[0] ,imagePathsForIG[1], directoryPath, '0')
 utils.createImage(imagePathsForIG[2] ,imagePathsForIG[3], directoryPath, '1')
 
-print("this is the desc")
-#print(appDescription)
-print("this is the title")
-print(appTitle)
+print("This is the description: " + appDescription)
+print("This is the title: " + appTitle)
 outfile = open(directoryPath+'/desc.txt', "w")
 outfile.write(appDescription)
 outfile.close()
