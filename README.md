@@ -6,6 +6,8 @@ The idea behind this was to automate the repetitive task of manually downloading
 
 It's main usage was for https://www.instagram.com/todays.app/ .
 
+![instagram_page](./Resources/instagram_page.png)
+
 ## Dependencies
 It has dependencies on [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [Pillow](https://pillow.readthedocs.io/en/stable/). 
 Install via the following commands:
